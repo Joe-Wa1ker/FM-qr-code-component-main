@@ -1,0 +1,66 @@
+
+@font-face {
+    font-display: swap; 
+    font-family: 'Outfit';
+    font-style: normal;
+    font-weight: 400;
+    src: url('./Fonts/outfit-v11-latin-regular.woff2') format('woff2'); 
+}
+
+@font-face {
+    font-display: swap; 
+    font-family: 'Outfit';
+    font-style: normal;
+    font-weight: 700;
+    src: url('./Fonts/outfit-v11-latin-700.woff2') format('woff2'); 
+}
+
+* {    
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: hsl(212, 45%, 89%);
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: white;
+    height: 60%;
+    width: 85%;
+    padding: 0;
+    border-radius: 3rem;
+}
+
+img {
+    width: 47rem;
+    height: 47rem;
+    /* w/h are 576px / 16(px per rem as default) = 36rem */
+    border-radius: 2rem;
+    margin: 5%;
+}
+
+h1 {
+    font-family: 'Outfit', sans-serif;
+    font-size: 3.5rem;
+    font-weight: 700;
+    text-align: center;
+    margin: 2% 9% 5% 9%;
+    color: hsl(218, 44%, 22%);
+}
+
+p { 
+    font-family: 'Outfit', sans-serif;
+    font-size: 2.5rem;
+    font-weight: 400;
+    text-align: center;
+    margin: 0% 9% 5% 9%;
+    color: hsl(216, 15%, 48%);
+}
