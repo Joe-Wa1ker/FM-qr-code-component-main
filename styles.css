@@ -32,35 +32,34 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
+    gap: 2.5em;
     background-color: white;
-    height: 60%;
-    width: 85%;
-    padding: 0;
     border-radius: 3rem;
+    width: 90%; /*Media query for large screens*/
+    max-height: 75%; /*Media query for large screens*/
 }
 
 img {
-    width: 47rem;
-    height: 47rem;
-    /* w/h are 576px / 16(px per rem as default) = 36rem */
     border-radius: 2rem;
-    margin: 5%;
+    margin-top: 5%;
+    width: 90%;
+    max-height: 60%;
 }
 
 h1 {
     font-family: 'Outfit', sans-serif;
-    font-size: 3.5rem;
     font-weight: 700;
+    font-size: 3.5em;
     text-align: center;
-    margin: 2% 9% 5% 9%;
     color: hsl(218, 44%, 22%);
+    margin: 0 9%;
 }
 
 p { 
     font-family: 'Outfit', sans-serif;
-    font-size: 2.5rem;
     font-weight: 400;
+    font-size: 2.6em;
     text-align: center;
-    margin: 0% 9% 5% 9%;
     color: hsl(216, 15%, 48%);
+    margin: 0 9% 10% 9%;
 }
